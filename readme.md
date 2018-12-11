@@ -6,7 +6,6 @@ Analysing Complexity of Facial Expressions with Nonlinear Dynamics
 
 
 
-
 Contact
 -------
 
