@@ -26,7 +26,6 @@ echo ''
 echo '#################################################################'
 echo '## gcc version: $gcc --version -O3 -std=c99'
 gcc --version -O3 -std=c99
-echo ''
 
 echo '#################################################################'
 echo '##  version of your python and pip:  version of your python and pip'
