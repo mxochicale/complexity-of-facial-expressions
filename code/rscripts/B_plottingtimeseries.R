@@ -1065,24 +1065,24 @@ dev.off()
 # The presense (0 absent, 1 present) of 18 AUs:
 # `AU01_c, AU02_c, AU04_c, AU05_c, AU06_c, AU07_c, AU09_c, AU10_c, AU12_c, AU14_c, AU15_c, AU17_c, AU20_c, AU23_c, AU25_c, AU26_c, AU28_c, AU45_c`
 plot <-	ggplot(xdata, aes(x=frame) ) +	
-  geom_line( aes(y=as.numeric(AU01_c), col='AU01'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU02_c), col='AU02'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU04_c), col='AU04'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU05_c), col='AU05'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU06_c), col='AU06'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU07_c), col='AU07'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU09_c), col='AU09'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU10_c), col='AU10'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU12_c), col='AU12'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU14_c), col='AU14'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU15_c), col='AU15'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU17_c), col='AU17'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU20_c), col='AU20'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU23_c), col='AU23'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU25_c), col='AU25'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU26_c), col='AU26'), size=plotlinewidth)+ 
-  geom_line( aes(y=as.numeric(AU28_c), col='AU28'), size=plotlinewidth)+
-  geom_line( aes(y=as.numeric(AU45_c), col='AU45'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU01_c), col='AU01_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU02_c), col='AU02_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU04_c), col='AU04_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU05_c), col='AU05_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU06_c), col='AU06_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU07_c), col='AU07_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU09_c), col='AU09_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU10_c), col='AU10_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU12_c), col='AU12_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU14_c), col='AU14_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU15_c), col='AU15_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU17_c), col='AU17_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU20_c), col='AU20_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU23_c), col='AU23_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU25_c), col='AU25_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU26_c), col='AU26_c'), size=plotlinewidth)+ 
+  geom_line( aes(y=as.numeric(AU28_c), col='AU28_c'), size=plotlinewidth)+
+  geom_line( aes(y=as.numeric(AU45_c), col='AU45_c'), size=plotlinewidth)+
   
 
 	coord_cartesian(xlim=NULL, ylim=c(-0.5,1.5))+ 
@@ -1105,23 +1105,23 @@ dev.off()
 # The intensity (from 0 to 5) of 18 AUs:
 # `AU01_r, AU02_r, AU04_r, AU05_r, AU06_r, AU07_r, AU09_r, AU10_r, AU12_r, AU14_r, AU15_r, AU17_r, AU20_r, AU23_r, AU25_r, AU26_r, AU45_r`
 plot <-	ggplot(xdata, aes(x=frame) ) +	
-  geom_line( aes(y=AU01_r, col='AU01'), size=plotlinewidth)+
-  geom_line( aes(y=AU02_r, col='AU02'), size=plotlinewidth)+
-  geom_line( aes(y=AU04_r, col='AU04'), size=plotlinewidth)+
-  geom_line( aes(y=AU05_r, col='AU05'), size=plotlinewidth)+
-  geom_line( aes(y=AU06_r, col='AU06'), size=plotlinewidth)+
-  geom_line( aes(y=AU07_r, col='AU07'), size=plotlinewidth)+
-  geom_line( aes(y=AU09_r, col='AU09'), size=plotlinewidth)+
-  geom_line( aes(y=AU10_r, col='AU10'), size=plotlinewidth)+
-  geom_line( aes(y=AU12_r, col='AU12'), size=plotlinewidth)+
-  geom_line( aes(y=AU14_r, col='AU14'), size=plotlinewidth)+
-  geom_line( aes(y=AU15_r, col='AU15'), size=plotlinewidth)+
-  geom_line( aes(y=AU17_r, col='AU17'), size=plotlinewidth)+
-  geom_line( aes(y=AU20_r, col='AU20'), size=plotlinewidth)+
-  geom_line( aes(y=AU23_r, col='AU23'), size=plotlinewidth)+
-  geom_line( aes(y=AU25_r, col='AU25'), size=plotlinewidth)+
-  geom_line( aes(y=AU26_r, col='AU26'), size=plotlinewidth)+ 
-  geom_line( aes(y=AU45_r, col='AU45'), size=plotlinewidth)+
+  geom_line( aes(y=AU01_r, col='AU01_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU02_r, col='AU02_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU04_r, col='AU04_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU05_r, col='AU05_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU06_r, col='AU06_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU07_r, col='AU07_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU09_r, col='AU09_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU10_r, col='AU10_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU12_r, col='AU12_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU14_r, col='AU14_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU15_r, col='AU15_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU17_r, col='AU17_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU20_r, col='AU20_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU23_r, col='AU23_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU25_r, col='AU25_r'), size=plotlinewidth)+
+  geom_line( aes(y=AU26_r, col='AU26_r'), size=plotlinewidth)+ 
+  geom_line( aes(y=AU45_r, col='AU45_r'), size=plotlinewidth)+
   
 
 	coord_cartesian(xlim=NULL, ylim=NULL )+ 
@@ -1490,6 +1490,369 @@ dev.off()
 #print(plot)
 #dev.off()
 #
+
+
+
+
+plotlinewidth_z <- 0.5
+alpha_z <- 0.9
+
+
+plotlinewidth_sg <- 1.5
+alpha_sg <- 0.25
+
+
+plot <- ggplot(xdata, aes(x=frame))+  
+	geom_line( aes(y=zmuvpose_Tx, col='zmuvpose_Tx'),  size=plotlinewidth_z, alpha= alpha_z)+
+	geom_line( aes(y=sgzmuvpose_Tx, col='sgzmuvpose_Tx'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+	geom_line( aes(y=zmuvpose_Ty, col='zmuvpose_Ty'),  size=plotlinewidth_z, alpha= alpha_z)+
+	geom_line( aes(y=sgzmuvpose_Ty, col='sgzmuvpose_Ty'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+	geom_line( aes(y=zmuvpose_Tz, col='zmuvpose_Tz'),  size=plotlinewidth_z, alpha= alpha_z)+
+	geom_line( aes(y=sgzmuvpose_Tz, col='sgzmuvpose_Tz'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+
+
+        theme_bw(15)+
+	facet_grid(trial ~ participant )+
+	coord_cartesian(xlim=NULL, ylim=NULL  )+
+	ylab('ZeroMeanUnitVariance and Satikzky-Golay zmuv') + 
+	xlab('Sample')+
+	labs(colour = 'Features')
+
+
+png(filename= paste(tag,"_sg-zmuv-poseTx.png",sep=''),
+   width=image_width, height=image_height, units="px", res=image_dpi, bg=image_bg)
+print(plot)
+dev.off()
+
+
+
+
+
+plotlinewidth_z <- 0.5
+alpha_z <- 0.9
+
+
+plotlinewidth_sg <- 1.5
+alpha_sg <- 0.25
+
+
+plot <- ggplot(xdata, aes(x=frame))+  
+geom_line( aes(y=zmuvx_0, col='zmuvx_0'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_1, col='zmuvx_1'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_2, col='zmuvx_2'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_3, col='zmuvx_3'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_4, col='zmuvx_4'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_5, col='zmuvx_5'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_6, col='zmuvx_6'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_7, col='zmuvx_7'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_8, col='zmuvx_8'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_9, col='zmuvx_9'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_10, col='zmuvx_10'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_11, col='zmuvx_11'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_12, col='zmuvx_12'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_13, col='zmuvx_13'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_14, col='zmuvx_14'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_15, col='zmuvx_15'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_16, col='zmuvx_16'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_17, col='zmuvx_17'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_18, col='zmuvx_18'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_19, col='zmuvx_19'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_20, col='zmuvx_20'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_21, col='zmuvx_21'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_22, col='zmuvx_22'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_23, col='zmuvx_23'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_24, col='zmuvx_24'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_25, col='zmuvx_25'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_26, col='zmuvx_26'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_27, col='zmuvx_27'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_28, col='zmuvx_28'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_29, col='zmuvx_29'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_30, col='zmuvx_30'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_31, col='zmuvx_31'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_32, col='zmuvx_32'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_33, col='zmuvx_33'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_34, col='zmuvx_34'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_35, col='zmuvx_35'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_36, col='zmuvx_36'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_37, col='zmuvx_37'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_38, col='zmuvx_38'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_39, col='zmuvx_39'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_40, col='zmuvx_40'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_41, col='zmuvx_41'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_42, col='zmuvx_42'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_43, col='zmuvx_43'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_44, col='zmuvx_44'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_45, col='zmuvx_45'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_46, col='zmuvx_46'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_47, col='zmuvx_47'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_48, col='zmuvx_48'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_49, col='zmuvx_49'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_50, col='zmuvx_50'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_51, col='zmuvx_51'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_52, col='zmuvx_52'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_53, col='zmuvx_53'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_54, col='zmuvx_54'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_55, col='zmuvx_55'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_56, col='zmuvx_56'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_57, col='zmuvx_57'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_58, col='zmuvx_58'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_59, col='zmuvx_59'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_60, col='zmuvx_60'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_61, col='zmuvx_61'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_62, col='zmuvx_62'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_63, col='zmuvx_63'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_64, col='zmuvx_64'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_65, col='zmuvx_65'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_66, col='zmuvx_66'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvx_67, col='zmuvx_67'),  size=plotlinewidth_z, alpha= alpha_z)+
+
+geom_line( aes(y=sgzmuvx_0, col='sgzmuvx_0'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_1, col='sgzmuvx_1'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_2, col='sgzmuvx_2'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_3, col='sgzmuvx_3'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_4, col='sgzmuvx_4'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_5, col='sgzmuvx_5'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_6, col='sgzmuvx_6'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_7, col='sgzmuvx_7'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_8, col='sgzmuvx_8'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_9, col='sgzmuvx_9'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_10, col='sgzmuvx_10'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_11, col='sgzmuvx_11'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_12, col='sgzmuvx_12'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_13, col='sgzmuvx_13'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_14, col='sgzmuvx_14'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_15, col='sgzmuvx_15'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_16, col='sgzmuvx_16'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_17, col='sgzmuvx_17'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_18, col='sgzmuvx_18'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_19, col='sgzmuvx_19'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_20, col='sgzmuvx_20'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_21, col='sgzmuvx_21'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_22, col='sgzmuvx_22'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_23, col='sgzmuvx_23'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_24, col='sgzmuvx_24'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_25, col='sgzmuvx_25'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_26, col='sgzmuvx_26'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_27, col='sgzmuvx_27'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_28, col='sgzmuvx_28'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_29, col='sgzmuvx_29'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_30, col='sgzmuvx_30'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_31, col='sgzmuvx_31'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_32, col='sgzmuvx_32'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_33, col='sgzmuvx_33'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_34, col='sgzmuvx_34'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_35, col='sgzmuvx_35'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_36, col='sgzmuvx_36'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_37, col='sgzmuvx_37'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_38, col='sgzmuvx_38'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_39, col='sgzmuvx_39'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_40, col='sgzmuvx_40'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_41, col='sgzmuvx_41'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_42, col='sgzmuvx_42'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_43, col='sgzmuvx_43'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_44, col='sgzmuvx_44'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_45, col='sgzmuvx_45'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_46, col='sgzmuvx_46'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_47, col='sgzmuvx_47'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_48, col='sgzmuvx_48'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_49, col='sgzmuvx_49'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_50, col='sgzmuvx_50'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_51, col='sgzmuvx_51'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_52, col='sgzmuvx_52'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_53, col='sgzmuvx_53'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_54, col='sgzmuvx_54'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_55, col='sgzmuvx_55'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_56, col='sgzmuvx_56'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_57, col='sgzmuvx_57'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_58, col='sgzmuvx_58'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_59, col='sgzmuvx_59'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_60, col='sgzmuvx_60'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_61, col='sgzmuvx_61'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_62, col='sgzmuvx_62'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_63, col='sgzmuvx_63'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_64, col='sgzmuvx_64'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_65, col='sgzmuvx_65'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_66, col='sgzmuvx_66'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvx_67, col='sgzmuvx_67'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+
+theme_bw(15)+
+theme(legend.position="none")+
+facet_grid(trial ~ participant )+
+coord_cartesian(xlim=NULL, ylim=NULL  )+
+ylab('ZeroMeanUnitVariance and Satikzky-Golay zmuv') + 
+xlab('Sample')+
+labs(colour = 'Features')
+
+png(filename= paste(tag,"_sg-zmuv-x.png",sep=''),
+width=image_width, height=image_height, units="px", res=image_dpi, bg=image_bg)
+print(plot)
+dev.off()
+
+
+
+
+plotlinewidth_z <- 0.5
+alpha_z <- 0.9
+
+plotlinewidth_sg <- 1.5
+alpha_sg <- 0.25
+
+
+plot <- ggplot(xdata, aes(x=frame))+  
+geom_line( aes(y=zmuvy_0, col='zmuvy_0'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_1, col='zmuvy_1'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_2, col='zmuvy_2'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_3, col='zmuvy_3'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_4, col='zmuvy_4'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_5, col='zmuvy_5'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_6, col='zmuvy_6'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_7, col='zmuvy_7'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_8, col='zmuvy_8'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_9, col='zmuvy_9'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_10, col='zmuvy_10'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_11, col='zmuvy_11'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_12, col='zmuvy_12'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_13, col='zmuvy_13'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_14, col='zmuvy_14'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_15, col='zmuvy_15'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_16, col='zmuvy_16'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_17, col='zmuvy_17'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_18, col='zmuvy_18'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_19, col='zmuvy_19'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_20, col='zmuvy_20'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_21, col='zmuvy_21'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_22, col='zmuvy_22'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_23, col='zmuvy_23'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_24, col='zmuvy_24'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_25, col='zmuvy_25'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_26, col='zmuvy_26'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_27, col='zmuvy_27'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_28, col='zmuvy_28'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_29, col='zmuvy_29'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_30, col='zmuvy_30'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_31, col='zmuvy_31'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_32, col='zmuvy_32'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_33, col='zmuvy_33'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_34, col='zmuvy_34'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_35, col='zmuvy_35'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_36, col='zmuvy_36'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_37, col='zmuvy_37'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_38, col='zmuvy_38'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_39, col='zmuvy_39'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_40, col='zmuvy_40'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_41, col='zmuvy_41'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_42, col='zmuvy_42'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_43, col='zmuvy_43'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_44, col='zmuvy_44'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_45, col='zmuvy_45'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_46, col='zmuvy_46'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_47, col='zmuvy_47'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_48, col='zmuvy_48'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_49, col='zmuvy_49'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_50, col='zmuvy_50'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_51, col='zmuvy_51'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_52, col='zmuvy_52'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_53, col='zmuvy_53'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_54, col='zmuvy_54'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_55, col='zmuvy_55'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_56, col='zmuvy_56'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_57, col='zmuvy_57'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_58, col='zmuvy_58'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_59, col='zmuvy_59'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_60, col='zmuvy_60'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_61, col='zmuvy_61'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_62, col='zmuvy_62'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_63, col='zmuvy_63'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_64, col='zmuvy_64'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_65, col='zmuvy_65'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_66, col='zmuvy_66'),  size=plotlinewidth_z, alpha= alpha_z)+
+geom_line( aes(y=zmuvy_67, col='zmuvy_67'),  size=plotlinewidth_z, alpha= alpha_z)+
+
+geom_line( aes(y=sgzmuvy_0, col='sgzmuvy_0'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_1, col='sgzmuvy_1'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_2, col='sgzmuvy_2'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_3, col='sgzmuvy_3'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_4, col='sgzmuvy_4'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_5, col='sgzmuvy_5'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_6, col='sgzmuvy_6'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_7, col='sgzmuvy_7'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_8, col='sgzmuvy_8'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_9, col='sgzmuvy_9'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_10, col='sgzmuvy_10'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_11, col='sgzmuvy_11'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_12, col='sgzmuvy_12'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_13, col='sgzmuvy_13'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_14, col='sgzmuvy_14'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_15, col='sgzmuvy_15'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_16, col='sgzmuvy_16'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_17, col='sgzmuvy_17'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_18, col='sgzmuvy_18'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_19, col='sgzmuvy_19'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_20, col='sgzmuvy_20'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_21, col='sgzmuvy_21'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_22, col='sgzmuvy_22'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_23, col='sgzmuvy_23'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_24, col='sgzmuvy_24'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_25, col='sgzmuvy_25'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_26, col='sgzmuvy_26'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_27, col='sgzmuvy_27'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_28, col='sgzmuvy_28'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_29, col='sgzmuvy_29'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_30, col='sgzmuvy_30'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_31, col='sgzmuvy_31'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_32, col='sgzmuvy_32'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_33, col='sgzmuvy_33'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_34, col='sgzmuvy_34'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_35, col='sgzmuvy_35'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_36, col='sgzmuvy_36'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_37, col='sgzmuvy_37'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_38, col='sgzmuvy_38'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_39, col='sgzmuvy_39'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_40, col='sgzmuvy_40'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_41, col='sgzmuvy_41'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_42, col='sgzmuvy_42'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_43, col='sgzmuvy_43'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_44, col='sgzmuvy_44'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_45, col='sgzmuvy_45'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_46, col='sgzmuvy_46'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_47, col='sgzmuvy_47'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_48, col='sgzmuvy_48'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_49, col='sgzmuvy_49'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_50, col='sgzmuvy_50'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_51, col='sgzmuvy_51'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_52, col='sgzmuvy_52'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_53, col='sgzmuvy_53'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_54, col='sgzmuvy_54'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_55, col='sgzmuvy_55'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_56, col='sgzmuvy_56'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_57, col='sgzmuvy_57'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_58, col='sgzmuvy_58'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_59, col='sgzmuvy_59'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_60, col='sgzmuvy_60'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_61, col='sgzmuvy_61'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_62, col='sgzmuvy_62'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_63, col='sgzmuvy_63'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_64, col='sgzmuvy_64'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_65, col='sgzmuvy_65'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_66, col='sgzmuvy_66'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+geom_line( aes(y=sgzmuvy_67, col='sgzmuvy_67'),  size=plotlinewidth_sg, alpha= alpha_sg)+
+
+theme_bw(15)+
+theme(legend.position="none")+
+facet_grid(trial ~ participant )+
+coord_cartesian(xlim=NULL, ylim=NULL  )+
+ylab('ZeroMeanUnitVariance and Satikzky-Golay zmuv') + 
+xlab('Sample')+
+labs(colour = 'Features')
+
+
+png(filename= paste(tag,"_sg-zmuv-y.png",sep=''),
+width=image_width, height=image_height, units="px", res=image_dpi, bg=image_bg)
+print(plot)
+dev.off()
+
+
+
 
 
 
