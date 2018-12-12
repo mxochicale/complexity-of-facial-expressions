@@ -1,13 +1,15 @@
 \documentclass[12pt]{article}
-\usepackage[a4paper, total={6in, 10in}]{geometry}
+%\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage[top=0in, bottom=1in, left=1.25in, right=1.25in]{geometry}
+
+
+
 \usepackage{graphicx}
 \graphicspath{{figs/}} 
 
 
-\title{
-Analysis of Movement Variability for Facial Expressions 
-with Nonlinear Dynamics
-} 
+\title{Analysing Complexity of Movement Variability 
+for Facial Expressions with Nonlinear Dynamics} 
 \author{Miguel Xochicale\\ 
 }
 \date{21th December 2018}
@@ -27,7 +29,7 @@ Movement variability is an inherent feature within and between persons.
 Research on measurement and understanding of movement variability has been 
 well established in the last three decades in areas such as biomechanics, 
 sport science, psychology, cognitive science, neuroscience and robotics 
-\cite{XochicalePhDThesis2018}
+\cite{2018arXiv181009249X}.
 With that in mind, I hypothesise that the subtle variations of facial 
 expressions can be quantified in a similar fashion as with the methodologies 
 of movement variability. Hence, I am interested in quantifying the complexity 
@@ -36,21 +38,29 @@ of human-robot interaction, particularly I am interested in these two questions:
 (i) can the quantification of the variation of facial expressions tell us 
 something about the state of health or the state of mind of a person?, 
 (ii) how the quantification of facial expressions can be related with 
-the complexity of the facial expressions?.
+the complexity of facial expressions?.
 
 
 \section{Methods}
-Considering my work of my PhD thesis for quantification of movement variability 
-using nonlinear dynamics methods \cite{2018arXiv181009249X},
+Considering the work of my Ph.D. thesis for quantification of movement variability 
+using nonlinear dynamics methods \cite{XochicalePhDThesis2018},
 I am proposing to work with Recurrence Quantification Analysis (RQA). 
 RQA computes measurements based on the recurrence points density of diagonal 
 or vertical line structures in Recurrence Plots. 
-Such measurements of dynamics can determine the determinism (predictability) 
-or Shannon entropy (complexity) of a nonlinear system \cite{marwan2007}. 
+Such measurements of dynamics can determine the dynamics of a system,
+e.g. the determinism (predictability) or Shannon entropy (complexity) 
+\cite{marwan2007}. 
 Hence, I am proposing to use Shannon Entropy measurement 
-from the recurrent quantification analysis, also known as RQAEntr 
+from the recurrent quantification analysis (also known as RQAEntr)
 to quantify the complexity of face expressions. 
-(Fig \ref{fig:method}).
+
+
+\section{Preliminary results}
+
+
+Fig \ref{fig:method} shows the proposed methodology with 
+some preliminary results of one participant performing three
+levels of face expressions. 
 
 
 %%---------------------------------(FIGURE)-------------------------------------
