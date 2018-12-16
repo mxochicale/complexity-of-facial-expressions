@@ -3,6 +3,12 @@
 
 # todo
 
+* [ ] consider the use of this tamplate for this work :
+	using: https://github.com/AndrewGYork/publication_template
+
+	added: Sun 16 Dec 18:36:46 GMT 2018
+
+
 * [ ] review papers from past conferences of 
 	International Conference on
 	Affective Computing & Intelligent Interaction.
