@@ -14,6 +14,7 @@
 	Affective Computing & Intelligent Interaction.
 
 	* (ACII 2019):  http://acii-conf.org/2019/important-dates/
+	* LaTeX template for acci2017: http://acii2017.org/submission
 
 added: Mon 10 Dec 20:05:39 GMT 2018
 
@@ -35,6 +36,14 @@ added: Tue 11 Dec 00:20:37 GMT 2018
 
 
 #sorted
+
+* [x] checking papers of emotion and state of health at ACII 2017
+
+	http://acii2017.org/system/files/acii2017_fullprogram.pdf
+
+	 added/sorted: Tue Dec 18 18:55:59 GMT 2018
+
+
 
 
 
