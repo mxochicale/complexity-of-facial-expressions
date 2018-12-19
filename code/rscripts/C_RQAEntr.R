@@ -64,10 +64,16 @@ xdata <- fread( file_ext, header=TRUE)
 
 
 ######################################################
-# If you come across to this part on how to compute RQAEntr, 
-# you can email me (perezDOTxochicaleATgmailDOTcom) subjet:RQAEntr
+# P.S. I am sorry for this annoying message. 
+# I broke my GNU/Linux OS machine on Monday 17DEC2018. 
+# Luckly, I were able to conduct the pilot experiment,
+# to compute landmarks with OpenFace, and to plot time series 
+# but I was not able to compute the RQAEntr.
+#
+# If you are still interested with the results for RQAEntr,
+# you can email me (perezDOTxochicaleATgmailDOTcom)subjet:RQAEntr
 # or go to code at https://github.com/mxochicale/phd-thesis-code-data
-
+#Wed Dec 19 21:34:53 GMT 2018
 
 
 #################
