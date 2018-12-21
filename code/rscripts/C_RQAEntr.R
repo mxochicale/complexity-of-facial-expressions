@@ -72,8 +72,9 @@ xdata <- fread( file_ext, header=TRUE)
 #
 # If you are still interested with the results for RQAEntr,
 # you can email me (perezDOTxochicaleATgmailDOTcom)subjet:RQAEntr
-# or go to code at https://github.com/mxochicale/phd-thesis-code-data
-#Wed Dec 19 21:34:53 GMT 2018
+# or try to implement these scripts from a similar experiment
+# https://github.com/mxochicale/phd-thesis-code-data/tree/master/code/rscripts/rqa/hii/v01
+# Fri Dec 21 11:30:01 GMT 2018
 
 
 #################
